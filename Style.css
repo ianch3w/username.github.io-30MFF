@@ -1,0 +1,137 @@
+/* Navigation bar and button style */
+header{
+    background-color: #060606;
+    font-family: 'New Amsterdam', sans-serif;
+ }
+ 
+ 
+ /* Website background color */
+ body{
+    background-color: #cdcdcdaa;
+ }
+ 
+ 
+ /* Website thumbnail text color */
+ h1 {
+    color: #ffffff;
+ }
+ 
+ 
+ /* About me header font */
+ h2 {
+    font-family: 'New Amsterdam', sans-serif;
+    font-size 25px;
+ }
+ 
+ 
+ /* Video title font*/
+ h4 {
+    font-family: "Fjalla One", sans-serif;
+    color: #000000
+    font-size 25px;
+ }
+ 
+ 
+ /* About me banner style */
+ .about-me {
+    background-color: #4a017b;
+    padding: 50px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 1000px;
+ 
+ 
+ }
+ 
+ 
+ /* slideshow formatting and style */  
+ .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+ 
+ 
+  .mySlides {
+    display: none;
+  }
+   .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+   .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+   .text {
+    color: #f2f2f2;
+    font-family: 'New Amsterdam', sans-serif;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+ 
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+   /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+   .active, .dot:hover {
+    background-color: #717171;
+  }
+   /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+   @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ 
+ 
+  .navbar-custom {
+  }
+   .navbar-custom .w3-bar-item {/
+    font-size: 26px;
+  }
+   .w3-bar.w3-light-grey.w3-round.w3-display-bottommiddle.w3-hide-small {
+    line-height: 20px;
+  }
+   .w3-bar.w3-light-grey.w3-round.w3-display-bottommiddle.w3-hide-small a {/* Adjust the padding for the links */
+    font-size: 26px; /* Adjust the font size */
+  }
+ 

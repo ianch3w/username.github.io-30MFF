@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+
+
+<!--Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:100%">
+<img src="thumbnail.jpg" alt="Me" style = "max-width: 100%" >
+<div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">IAN CHIU</h1>
+  <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
+  <h3 class="w3-hide-medium w3-hide-small">INTERACTIVE MEDIA</h3>
+</div>
+ <!-- Navigation bar -->
+<div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</header>
+
+
+
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+<a href="#" class="w3-bar-item w3-button">Home</a>
+<a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+
+
+<!--Video introduction and video -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+   <h4 class="w3-center">THE LIFE OF A D1 ATHLETE</h3>
+   <p class="w3-center"><em>A Short Film</em></p>
+   <p>This mockumentary style short film was inspired by basketball players like Kobe Bryant, showcasing the insane work ethic and hard work that goes into being a professional sports player. I also used the montages as a way to showcase scenic spots around campus, as well as our world class athletics facilities. Huge thanks to my friend, Ingus Dimisevskis, for sacrificing his saturday morning to film.</p>
+  
+                                                                      
+   <iframe width="950" height="600" src="https://www.youtube.com/embed/3DiZM8-tFBU?si=uwzrHz_MKn78LVU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+ <!--About me section -->
+ <div class="about-me">
+   <h2 class="w3-center">ABOUT ME</h2>
+   <p>Hi! My name is Ian Chiu, an amateur artist and filmmaker, as well as a student at New York University Abu Dhabi. My hobbies include dancing, drawing, traveling and playing basketball. I'm pretty new to this coding thing but I hope you enjoyed scrolling through my website :)</p>
+ </div>
+  <div class="slideshow-container">
+
+
+   <!-- Slideshow and caption text -->
+   <div class="mySlides fade">
+     <div class="numbertext">1 / 4</div>
+     <img src="ball.JPG" style="width:100%">
+     <div class="text">Basketball</div>
+   </div>
+    <div class="mySlides fade">
+     <div class="numbertext">2 / 4</div>
+     <img src="dance.JPG" style="width:100%">
+     <div class="text">Dance</div>
+   </div>
+    <div class="mySlides fade">
+     <div class="numbertext">3 / 4</div>
+     <img src="travel.jpeg" style="width:100%">
+     <div class="text">Travel</div>
+   </div>
+
+
+   <div class="mySlides fade">
+     <div class="numbertext">4/ 4</div>
+     <img src="Draw.png" style="width:100%">
+     <div class="text">Art</div>
+   </div>
+ 
+   <!-- Next and previous buttons -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+  <!-- The dots/circles -->
+ <div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+ </div>
+
+
+  
+<!-- Contact -->
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+  <h3 class="w3-center">Contact</h3>
+  <p>Please reach out if you have any inquiries or would like to collaborate! My email is sc10150@nyu.edu </p>
+  <hr>
+
+
+  <form action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form><br>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+<script src="Script.js"></script>
+
+
+</body>
+</html>
+
+
